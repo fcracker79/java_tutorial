@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.function.Predicate;
 
-public class Main {
+public class SimpleLambdaMain {
     private static Collection<Person> collect(Collection<Person> persons, Predicate<Person> predicate) {
         final Collection<Person> result = new ArrayList<>();
         for (Person p : persons) {
